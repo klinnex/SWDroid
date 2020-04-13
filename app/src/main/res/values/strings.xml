@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">TextToSpeech</string>
+    <string name="app_name">SD</string>
+    <string name="btn_start">Start fight</string>
+    <string name="btn_progress">Fight in on progress…</string>
 </resources>
