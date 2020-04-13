@@ -2,4 +2,4 @@
 🎤 SWdroid App
 
 ## Screenshot
-![](screenshot.png)
+![](screenshot_app.png)
