@@ -158,11 +158,15 @@ public class MainActivity extends AppCompatActivity {
         btnSpeak.setText(R.string.btn_progress);
         do {
             speak();
+            while(textToSpeech.isSpeaking()){
+                // do nothing
+            }
             try {
                 Thread.sleep(1000 * vitesse.getProgress());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
             currentItteration++;
         } while (currentItteration < Long.parseLong(viewById.getText().toString()));
         btnSpeak.setText(R.string.btn_start);
